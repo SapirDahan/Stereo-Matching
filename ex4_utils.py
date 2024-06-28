@@ -1,8 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-import tkinter as tk
-from PIL import Image, ImageTk
+
 
 
 def disparitySSD(img_l: np.ndarray, img_r: np.ndarray, disp_range: (int, int), k_size: int) -> np.ndarray:
